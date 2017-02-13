@@ -7,7 +7,8 @@ The best way to understand Cryptovium is to study the unit tests.  There is a fu
 
 
 Cryptovium is incomplete - currently only SHA2, CURVE25519, ECC SECP256R1, and key derivation functions are implemented.
-Again, this is just an experiment - use at your own risk.
+
+####Again, this is just an experiment - use at your own risk.
 
 
 ## Acknowledgements

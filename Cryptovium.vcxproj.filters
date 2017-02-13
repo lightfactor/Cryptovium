@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\cryptovium">
+      <UniqueIdentifier>{7630cbdf-dcb5-4f0c-89e9-5f35f5e8d1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\unit_tests">
+      <UniqueIdentifier>{f91deeb3-9f7d-4d85-8679-63e237f26816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform">
+      <UniqueIdentifier>{9f2e3278-93ea-42dc-89c9-baee8b7efc8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows">
+      <UniqueIdentifier>{8137a77e-dece-48b7-8b46-63d620960991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows\curve25519">
+      <UniqueIdentifier>{15ad5b77-f220-414c-a1ee-77d316b47eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows\curve25519\ed25519">
+      <UniqueIdentifier>{37a85fb1-dac5-4a9a-99b4-3688e10988d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows\curve25519\ed25519\additions">
+      <UniqueIdentifier>{506cca62-adb6-431b-ad6c-a6a92769fbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes">
+      <UniqueIdentifier>{68695ecb-6ae5-4cec-a42e-3bfecd670744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_sha512">
+      <UniqueIdentifier>{efe74a93-ca79-4eb4-a669-66eb4a501d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptovium\platform\windows\micro-ecc">
+      <UniqueIdentifier>{1b8bbcd5-7306-4cdd-8da0-2c1c81a1521a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_sha512\blocks.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_sha512</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_sha512\hash.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_sha512</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\compare.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\curve_sigs.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\elligator.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\fe_isequal.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\fe_mont_rhs.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\fe_montx_to_edy.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\fe_sqrt.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_is_small_order.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_isneutral.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_montx_to_p2.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_montx_to_p3.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_neg.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_p3_to_montx.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_scalarmult.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\ge_scalarmult_cofactor.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\keygen.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\open_modified.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\sc_clamp.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\sc_cmov.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\sc_neg.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\sign_modified.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\uopen_modified.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\usign_modified.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\utility.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\vopen_modified.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\vsign_modified.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\vxeddsa.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\xeddsa.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_0.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_1.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_add.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_cmov.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_copy.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_frombytes.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_invert.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_isnegative.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_isnonzero.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_mul.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_neg.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_pow22523.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_sq.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_sq2.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_sub.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\fe_tobytes.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_add.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_double_scalarmult.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_frombytes.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_madd.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_msub.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p1p1_to_p2.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p1p1_to_p3.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p2_0.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p2_dbl.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p3_0.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p3_dbl.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p3_to_cached.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p3_to_p2.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p3_tobytes.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_precomp_0.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_scalarmult_base.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_sub.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_tobytes.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\open.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\sc_muladd.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\sc_reduce.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\ed25519\sign.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\curve25519\curve25519.c">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\sha256.c">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\sha512.c">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\unit_tests\cryptovium_tests.c">
+      <Filter>Source Files\cryptovium\unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\unit_tests\cvm_ut_fidou2f.c">
+      <Filter>Source Files\cryptovium\unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\unit_tests\cvm_ut_sha.c">
+      <Filter>Source Files\cryptovium\unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\sec_rnd.c">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\cryptovium.c">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\cryptovium_ecc.c">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\cryptovium_rnd.c">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\cryptovium_sha.c">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\compare_ct.c">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\hkdf.c">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\pbkdf2.c">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\zeroize.c">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\platform\windows\mico-ecc\uECC.c">
+      <Filter>Source Files\cryptovium\platform\windows\micro-ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cryptovium\cryptovium_kdf.c">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_int32.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_int64.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_sign.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_sign_edwards25519sha512batch.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_uint32.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_uint64.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\nacl_includes\crypto_verify_32.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\nacl_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\compare.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\crypto_additions.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\crypto_hash_sha512.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\curve_sigs.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\keygen.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\utility.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\vxeddsa.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\additions\xeddsa.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519\additions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\base.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\base2.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\d.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\d2.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\fe.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\ge.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_add.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_madd.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_msub.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_p2_dbl.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\ge_sub.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\pow22523.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\pow225521.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\sc.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\ed25519\sqrtm1.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\curve25519\curve25519.h">
+      <Filter>Source Files\cryptovium\platform\windows\curve25519</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\include_windows.h">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\sha256.h">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\sha512.h">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\unit_tests\cryptovium_tests.h">
+      <Filter>Source Files\cryptovium\unit_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\sec_rnd.h">
+      <Filter>Source Files\cryptovium\platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\conf_cryptovium.h">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\cryptovium.h">
+      <Filter>Source Files\cryptovium</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\compare_ct.h">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\hkdf.h">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\pbkdf2.h">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\zeroize.h">
+      <Filter>Source Files\cryptovium\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\mico-ecc\uECC.h">
+      <Filter>Source Files\cryptovium\platform\windows\micro-ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cryptovium\platform\windows\mico-ecc\types.h">
+      <Filter>Source Files\cryptovium\platform\windows\micro-ecc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

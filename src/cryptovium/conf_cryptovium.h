@@ -1,0 +1,43 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (C) 2017 Lightfactor, LLC. All rights reserved.
+//
+// Author:		  Jeff Cesnik <jcesnik@lightfactor.co>
+// Last Modified: 02/13/2017
+//
+////////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef _CRYPTOVIUM_CONF_H_
+#define _CRYPTOVIUM_CONF_H_
+
+
+#define CVM_MAX_IMMEDIATE_EXTERNALS						(8)
+
+
+#define CRYPTOVIUM_SUPPORT_SECURE_RANDOM				(1)
+
+#define CRYPTOVIUM_SUPPORT_SHA256						(1)
+#define CRYPTOVIUM_SUPPORT_SHA256_INCREMENTAL			(1)
+#define CRYPTOVIUM_SUPPORT_SHA512						(1)
+#define CRYPTOVIUM_SUPPORT_SHA512_INCREMENTAL			(1)
+#define CRYPTOVIUM_SUPPORT_HMAC_SHA256					(1)
+#define CRYPTOVIUM_SUPPORT_HMAC_SHA256_INCREMENTAL		(1)
+
+#define CRYPTOVIUM_SUPPORT_ECC_CURVE25519				(1)
+#define CRYPTOVIUM_SUPPORT_ECC_CURVE25519_SIGN			(1)
+#define CRYPTOVIUM_SUPPORT_ECC_CURVE25519_VERIFY		(1)
+
+#define CRYPTOVIUM_SUPPORT_ECC_ED25519_SIGN				(0)
+#define CRYPTOVIUM_SUPPORT_ECC_ED25519_VERIFY			(0)
+
+#define CRYPTOVIUM_SUPPORT_ECC_SECP256R1				(1)
+#define CRYPTOVIUM_SUPPORT_ECC_SECP256R1_SIGN			(1)
+#define CRYPTOVIUM_SUPPORT_ECC_SECP256R1_VERIFY			(1)
+#define CRYPTOVIUM_SUPPORT_ECC_SECP256R1_DER_ENCODE		(1)
+#define CRYPTOVIUM_SUPPORT_ECC_SECP256R1_DER_DECODE		(1)
+
+#define CRYPTOVIUM_SUPPORT_KDF_HKDF						(1)
+#define CRYPTOVIUM_SUPPORT_KDF_PBKDF2					(1)
+
+
+#endif // _CRYPTOVIUM_CONF_H_

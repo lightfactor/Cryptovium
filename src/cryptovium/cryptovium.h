@@ -2,7 +2,7 @@
 // Copyright (C) 2017 Lightfactor, LLC. All rights reserved.
 //
 // Author:		  Jeff Cesnik <jcesnik@lightfactor.co>
-// Last Modified: 02/12/2017
+// Last Modified: 02/15/2017
 //
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -100,8 +100,8 @@ typedef enum
 	CVM_F_SHA512_FINISH = 0x17,						// 1 operand, DST
 	CVM_F_HMAC_SHA256 = 0x18,						// 3 operands, DST, SECRET, SRC
 	CVM_F_HMAC_SHA256_START = 0x19,					// 1 operand, SECRET
-	CVM_F_HMAC_SHA256_UPDATE = 0x20,				// 1 operand, SRC
-	CVM_F_HMAC_SHA256_FINISH = 0x21,				// 1 operand, DST
+	CVM_F_HMAC_SHA256_UPDATE = 0x1a,				// 1 operand, SRC
+	CVM_F_HMAC_SHA256_FINISH = 0x1b,				// 1 operand, DST
 
 	// ECC functions
 	CVM_F_ECC_CURVE25519_CLAMP_SECRET = 0x30,		// 1 operand, KEY=reg only
